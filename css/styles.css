@@ -1,0 +1,112 @@
+section {
+  padding: 1.5rem 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  padding: 1.5rem;
+}
+.header .logo {
+  height: 1rem;
+}
+.header .btn-mobile-nav {
+  height: 2.2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fdf2e9;
+}
+.hero .headline {
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
+}
+.hero .summary {
+  line-height: 1.5;
+}
+.hero__button {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+}
+.hero__button--accent {
+  color: white;
+  background-color: #e67e22;
+}
+.hero__button--neutral {
+  color: #555;
+  background-color: #fff;
+}
+.hero .delivered-meals {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0 2rem 0;
+}
+.hero .delivered-meals .delivered-images {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  min-width: 150px;
+}
+.hero .delivered-meals .delivered-images > img {
+  display: inline-block;
+  width: 35px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-left: -15px;
+}
+.hero .delivered-meals .delivered-text {
+  font-weight: 600;
+}
+.hero .delivered-text span {
+  color: #cf711f;
+}
+.hero__image {
+  max-width: 20rem;
+  margin: auto;
+}
+
+.featured-in {
+  color: #888;
+  padding: 1rem 0;
+}
+.featured-in h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.featured-in__image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.featured-in__image-container img {
+  height: 0.6125rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+section.how .container {
+  margin-top: 1rem;
+}
+section.how .container .subheading {
+  color: #cf711f;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+section.how .container .heading-secondary {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.8rem;
+  padding-right: 2rem;
+}/*# sourceMappingURL=styles.css.map */
